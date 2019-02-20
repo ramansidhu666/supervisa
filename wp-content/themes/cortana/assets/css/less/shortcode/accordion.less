@@ -1,0 +1,105 @@
+.vc_tta.vc_general .vc_tta-panel {
+	.vc_tta-panel-heading {
+		.rounded(0);
+		.vc_tta-panel-title > a {
+			font-family: @secondary_font;
+			font-size:   13px;
+			font-weight: 400;
+			color:       @text_color;
+		}
+	}
+	&.vc_active {
+		.vc_tta-panel-heading {
+			background: #222;
+			.rounded(0);
+			.vc_tta-panel-title > a {
+				color: #fff;
+			}
+		}
+		.vc_tta-controls-icon {
+			font-style: normal;
+			color:      @primary_color;
+			&:before {
+				border-color: @primary_color;
+			}
+			&:after {
+				border-color: @primary_color;
+			}
+		}
+	}
+	.vc_tta-controls-icon {
+		font-style: normal;
+		color:      @primary_color;
+		&:before {
+			border-color: @primary_color;
+		}
+		&:after {
+			border-color: @primary_color;
+		}
+	}
+}
+
+.vc_tta .vc_tta-controls-icon.vc_tta-controls-icon-chevron {
+	font-weight: normal;
+
+	&::before {
+		font-family:      'cortana';
+		content:          '\e07d';
+		border-width:     0;
+		font-size:        16px;
+		webkit-transform: rotate(0deg) translate(-25%, -25%);
+		-ms-transform:    rotate(0deg) translate(-25%, -25%);
+		transform:        rotate(0) translate(-25%, -25%);
+	}
+}
+
+.vc_tta .vc_active .vc_tta-controls-icon.vc_tta-controls-icon-chevron {
+	&::before {
+		webkit-transform: rotate(90deg) translate(-25%, -25%);
+		-ms-transform:    rotate(90deg) translate(-25%, -25%);
+		transform:        rotate(90deg) translate(-25%, -25%);
+	}
+}
+
+.vc_tta-color-grey.vc_tta-style-classic .vc_tta-panel .vc_tta-panel-heading {
+	background: #F9F9F9;
+
+}
+
+.vc_tta.vc_general .vc_tta-panel-heading {
+	border:       0;
+	border-top:   1px solid #DDDDDD;
+	margin-left:  0;
+	margin-right: 0;
+	padding:      0;
+}
+
+.vc_tta.vc_general {
+	border:     1px solid #ddd;
+	border-top: 0;
+}
+
+.vc_general.vc_tta-accordion {
+	.vc_tta-panels-container {
+		border:     1px solid #ddd;
+		border-top: 0;
+	}
+
+	.vc_tta-panel {
+		.vc_tta-panel-heading {
+			border:       0;
+			border-top:   1px solid #ddd;
+			margin-left:  0;
+			margin-right: 0;
+			padding:      0;
+		}
+		.vc_tta-panel-body {
+			border: 0;
+		}
+		&:last-child {
+			.vc_tta-panel-heading {
+				//				border-bottom: 1px solid #ddd;
+			}
+		}
+	}
+}

@@ -1,0 +1,116 @@
+.cortana-client {
+	.content-middle-inner {
+		display:    block;
+		text-align: center;
+	}
+	&.style1 {
+		.client-grid {
+			margin: 0 -15px;
+			&:after {
+				content: '';
+				display: block;
+				clear:   both;
+			}
+			.content-middle-inner {
+				float:   left;
+				padding: 15px;
+			}
+			&.col-5 {
+				.content-middle-inner {
+					width: 20%;
+				}
+			}
+			&.col-6 {
+				.content-middle-inner {
+					width: 16.66666%;
+				}
+			}
+			&.col-4 {
+				.content-middle-inner {
+					width: 25%;
+				}
+			}
+			&.col-3 {
+				.content-middle-inner {
+					width: 33.333%;
+				}
+			}
+			&.col-2 {
+				.content-middle-inner {
+					width: 50%;
+				}
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.cortana-client {
+		&.style1 {
+			.client-grid {
+				&.col-5 {
+					.content-middle-inner {
+						width: 50%;
+					}
+				}
+				&.col-6 {
+					.content-middle-inner {
+						width: 50%;
+					}
+				}
+				&.col-4 {
+					.content-middle-inner {
+						width: 50%;
+					}
+				}
+				&.col-3 {
+					.content-middle-inner {
+						width: 50%;
+					}
+				}
+				&.col-2 {
+					.content-middle-inner {
+						width: 50%;
+					}
+				}
+			}
+		}
+		.cortana-title {
+			margin-top: 30px;
+		}
+	}
+}
+
+@media screen and (max-width: 480px) {
+	.cortana-client {
+		&.style1 {
+			.client-grid {
+				&.col-5 {
+					.content-middle-inner {
+						width: 50%;
+					}
+				}
+				&.col-6 {
+					.content-middle-inner {
+						width: 50%;
+					}
+				}
+				&.col-4 {
+					.content-middle-inner {
+						width: 50%;
+					}
+				}
+				&.col-3 {
+					.content-middle-inner {
+						width: 50%;
+					}
+				}
+				&.col-2 {
+					.content-middle-inner {
+						width: 50%;
+					}
+				}
+			}
+		}
+	}
+}

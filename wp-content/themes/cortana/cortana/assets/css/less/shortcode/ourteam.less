@@ -1,0 +1,302 @@
+.cortana-ourteam.style1 {
+	text-align: center;
+	.owl-wrapper .owl-item {
+		padding-left:  15px;
+		padding-right: 15px;
+	}
+	.cortana-ourteam-slider {
+		margin-left:  -15px;
+		margin-right: -15px;
+		.ourteam-item {
+			margin: 0;
+		}
+	}
+	.ourteam-item {
+		position: relative;
+		margin:   30px 0;
+		.ourteam-avatar {
+			position: relative;
+			img {
+				width:  100%;
+				height: 100%;
+			}
+			.hover-action {
+				position:           absolute;
+				top:                0;
+				left:               0;
+				right:              0;
+				bottom:             0;
+				.rgba-bg-color(@primary_color, 0.8);
+				opacity:            0;
+				-webkit-transform:  scale(0);
+				-moz-transform:     scale(0);
+				-ms-transform:      scale(0);
+				-o-transform:       scale(0);
+				transform:          scale(0);
+				-webkit-transition: all .3s linear;
+				-moz-transition:    all .3s linear;
+				-ms-transition:     all .3s linear;
+				-o-transition:      all .3s linear;
+				transition:         all .3s linear;
+				a {
+					display:  block;
+					position: absolute;
+					top:      0;
+					bottom:   0;
+					left:     0;
+					right:    0;
+					i {
+						color:       #fff;
+						width:       48px;
+						height:      48px;
+						top:         50%;
+						position:    absolute;
+						left:        50%;
+						margin-top:  -24px;
+						margin-left: -24px;
+						line-height: 48px;
+						text-align:  center;
+						.rounded(100%);
+						border:      2px solid #fff;
+						&:after {
+							font-size:   16px;
+							line-height: 44px;
+							height:      44px;
+						}
+					}
+				}
+			}
+			&:hover {
+				.hover-action {
+					opacity:           1;
+					-webkit-transform: scale(1);
+					-moz-transform:    scale(1);
+					-ms-transform:     scale(1);
+					-o-transform:      scale(1);
+					transform:         scale(1);
+				}
+			}
+		}
+		.ourteam-info {
+			text-align: center;
+			h4 {
+				font-family:    @secondary_font;
+				font-size:      14px;
+				color:          #292929;
+				line-height:    1;
+				letter-spacing: 0.02em;
+				font-weight:    400;
+				text-transform: uppercase;
+				padding-top:    23px;
+				margin:         0 0 10px;
+				a {
+					color:           @text_color;
+					text-decoration: none;
+					&:hover {
+						color: @primary_color;
+					}
+				}
+			}
+			p.excerpt {
+				margin:      25px 0 20px;
+				font-size:   14px;
+				line-height: 2.2;
+			}
+			span {
+				font-family: @thrid_font;
+				font-size:   14px;
+				color:       @text_color;
+				line-height: 1;
+				font-style:  italic;
+				margin:      0;
+				display:     block;
+			}
+			.ourteam-social {
+				//				position: absolute;
+				//				left:     0;
+				//				right:    0;
+				//				top:      0;
+				//				bottom:   0;
+				margin:  auto;
+				height:  30px;
+				padding: 0;
+				//				opacity:  0;
+				li {
+					display: inline-block;
+					margin:  0 7px;
+					a {
+						display:    inline-block;
+						width:      30px;
+						height:     30px;
+						color:      #ffffff;
+						.rounded(50%);
+						text-align: center;
+						background: #222222;
+						i {
+							line-height: 30px;
+							font-size:   14px;
+						}
+						&:hover {
+							background-color: @primary_color;
+							color:            #ffffff;
+						}
+					}
+				}
+			}
+		}
+
+	}
+	.owl-theme .owl-controls .owl-buttons div {
+		width:            40px;
+		height:           40px;
+		background-color: #2B2B2B;
+		opacity:          1;
+		margin:           auto;
+		padding:          0;
+		i {
+			font-size:   21px;
+			color:       #ffffff;
+			line-height: 40px;
+		}
+		&:hover {
+			background-color: @primary_color;
+		}
+	}
+	.owl-theme .owl-controls {
+		margin-top: 0;
+	}
+	.owl-theme .owl-buttons {
+		.owl-prev {
+			position: absolute;
+			left:     -45px;
+			top:      0;
+			bottom:   30px;
+			margin:   auto;
+		}
+		.owl-next {
+			position: absolute;
+			right:    -45px;
+			top:      0;
+			bottom:   30px;
+			margin:   auto;
+		}
+	}
+}
+
+.cortana-ourteam.style2 {
+	.ourteam-item {
+		margin-bottom: 30px;
+		.ourteam-avatar {
+			img {
+				width: 100%;
+			}
+			figure {
+				position: relative;
+			}
+			.hover-action {
+				position:           absolute;
+				top:                0;
+				left:               0;
+				right:              0;
+				bottom:             0;
+				.rgba-bg-color(@primary_color, 0.8);
+				opacity:            0;
+				-webkit-transform:  scale(0);
+				-moz-transform:     scale(0);
+				-ms-transform:      scale(0);
+				-o-transform:       scale(0);
+				transform:          scale(0);
+				-webkit-transition: all .3s linear;
+				-moz-transition:    all .3s linear;
+				-ms-transition:     all .3s linear;
+				-o-transition:      all .3s linear;
+				transition:         all .3s linear;
+				a {
+					display:  block;
+					position: absolute;
+					top:      0;
+					bottom:   0;
+					left:     0;
+					right:    0;
+					i {
+						color:       #fff;
+						width:       48px;
+						height:      48px;
+						top:         50%;
+						position:    absolute;
+						left:        50%;
+						margin-top:  -24px;
+						margin-left: -24px;
+						line-height: 48px;
+						text-align:  center;
+						.rounded(100%);
+						border:      2px solid #fff;
+						&:after {
+							font-size:   16px;
+							line-height: 44px;
+							height:      44px;
+						}
+					}
+				}
+			}
+			&:hover {
+				.hover-action {
+					opacity:           1;
+					-webkit-transform: scale(1);
+					-moz-transform:    scale(1);
+					-ms-transform:     scale(1);
+					-o-transform:      scale(1);
+					transform:         scale(1);
+				}
+			}
+		}
+		.ourteam-info {
+			.cortana-title {
+				margin-top: 15px;
+				a {
+					color:           @text_color;
+					text-decoration: none;
+				}
+			}
+			> span {
+				font-family: @thrid_font;
+				font-style:  italic;
+				font-size:   14px;
+				color:       #666;
+			}
+		}
+		.ourteam-social {
+			margin:  auto;
+			height:  30px;
+			padding: 0;
+			li {
+				display: inline-block;
+				margin:  0 7px;
+				a {
+					display:    inline-block;
+					width:      30px;
+					height:     30px;
+					color:      #ffffff;
+					.rounded(50%);
+					text-align: center;
+					background: #222222;
+					i {
+						line-height: 30px;
+						font-size:   14px;
+					}
+					&:hover {
+						background-color: @primary_color;
+						color:            #ffffff;
+					}
+				}
+			}
+		}
+	}
+}
+
+.single-ourteam {
+	.ourteam-item {
+		padding-bottom: 55px;
+		border-bottom:  1px solid @border_color;
+	}
+}

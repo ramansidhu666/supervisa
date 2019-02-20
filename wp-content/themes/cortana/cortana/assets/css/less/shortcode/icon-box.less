@@ -1,0 +1,93 @@
+.cortana-icon-box {
+	padding: 27px 0;
+	.ibox-icon {
+		display:            block;
+		height:             46px;
+		width:              46px;
+		background-color:   @primary_color;
+		border:             2px solid transparent;
+		margin-left:        auto;
+		margin-right:       auto;
+		text-align:         center;
+		border-radius:      100%;
+		-webkit-transition: all 0.2s linear;
+		-moz-transition:    all 0.2s linear;
+		-ms-transition:     all 0.2s linear;
+		-o-transition:      all 0.2s linear;
+		transition:         all 0.2s linear;
+		color:              #ffffff;
+		text-decoration:    none;
+		i {
+			font-size:   20px;
+			line-height: 43px;
+		}
+		img {
+			width:  46px;
+			height: 46px;
+		}
+		&:hover {
+			text-decoration: none;
+		}
+	}
+	.icon-entry-content {
+		h3 {
+			margin:         0 0 15px;
+			font-size:      14px;
+			color:          @text_color;
+			text-transform: uppercase;
+			font-family:    @secondary_font;
+			&.border-bottom {
+				&:after {
+					display:    block;
+					height:     2px;
+					content:    '';
+					width:      40px;
+					background: @primary_color;
+					margin-top: 20px;
+				}
+			}
+			a {
+				font-size:       14px;
+				color:           @text_color;
+				text-transform:  uppercase;
+				font-family:     @secondary_font;
+				text-decoration: none;
+			}
+		}
+		p {
+			line-height: 220%;
+			font-size:   14px;
+		}
+	}
+	&.style1 {
+		.ibox-icon {
+			margin-top: 6px;
+			float:      left;
+		}
+		.icon-entry-content {
+			overflow:     hidden;
+			padding-left: 12px;
+		}
+	}
+	&.style2 {
+		.icon-entry-content {
+			text-align: center;
+			h3 {
+				margin: 25px 0 20px;
+			}
+		}
+	}
+	&.style3 {
+		.ibox-icon {
+			margin-top: 6px;
+			float:      right;
+		}
+		.icon-entry-content {
+			width:         calc(~"100% - 46px");
+			float:         right;
+			padding-right: 12px;
+			text-align:    right;
+		}
+	}
+}
+

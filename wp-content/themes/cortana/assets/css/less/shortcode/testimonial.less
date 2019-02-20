@@ -1,0 +1,71 @@
+.cortana-testimonials {
+	.cortana-title {
+		margin-bottom: 35px;
+	}
+	.cortana-testimonial-item {
+		padding: 0 15px;
+	}
+	.entry-content {
+		padding:    25px;
+		margin-top: 5px;
+		position:   relative;
+		background: #f9f9f9;
+		p {
+			margin:      0;
+			font-family: @thrid_font;
+			font-style:  italic;
+			font-size:   14px;
+			color:       @text_color;
+			line-height: 2.2;
+
+		}
+		span.arrow {
+			width:        0;
+			height:       0;
+			border-style: solid;
+			border-width: 23px 13px 0 1px;
+			border-color: #f9f9f9 transparent transparent transparent;
+			line-height:  0;
+			//			_border-color: #007bff #000 #000 #000;
+			//			_filter: progid:DXImageTransform.Microsoft.Chroma(color='#000000');
+			content:      '';
+			right:        36px;
+			top:          100%;
+			position:     absolute;
+		}
+	}
+	.entry-footer {
+		margin-top: 30px;
+		.author-info {
+			float:        right;
+			text-align:   right;
+			margin-right: 20px;
+			padding-top:  13px;
+			h6 {
+				font-size:      14px;
+				margin:         0;
+				color:          @text_color;
+				text-transform: uppercase;
+
+			}
+			span {
+				color:       #666666;
+				font-size:   13px;
+				font-style:  italic;
+				font-family: @thrid_font;
+			}
+		}
+		figure {
+			float:  right;
+			.rounded(100%);
+			border: 1px solid #E1E1DF;
+			width:  64px;
+			height: 64px;
+			img {
+				.rounded(100%);
+				border: 4px solid #fff;
+			}
+
+		}
+	}
+}
